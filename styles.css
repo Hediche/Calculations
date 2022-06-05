@@ -1,0 +1,39 @@
+body{
+    margin: 50px;
+    text-align: center;
+    background-color:burlywood;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.child{
+    padding: 30px 0;
+}
+input{
+    margin: 5px 0; 
+    padding: 10px;
+    border-radius: 20px;
+}
+
+label{
+    padding: 20px;
+}
+button{
+    width: 100px;
+    background-color: rgb(238, 109, 34);
+    border-radius: 20px;
+    height:30px;
+    margin: 20px 0;
+}
+.clicked{
+    color: rgb(43, 4, 216);
+    font-family: cursive;
+    font-size: 2rem;
+}
+h1{
+    font-size:4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: tomato;
+}

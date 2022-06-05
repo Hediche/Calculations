@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_Calculations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Week 3 Assignment 2: Calculations</h1>
+<div class="container">
+    
+    <div class="child">
+     
+            <h3 class="clicked">Diagonal of a Square</h3><br>
+            <label for="">Side:</label>
+            <input class="Side" type="text" placeholder="9"> <br>
+            <button id="Square" onclick= "calculate(diagonal)">Click</button>
+            <h4 id = "Resultbox">Result will appear here.</h4><br>
+    </div>
+    <div class="child">
+   
+            <h3 class="clicked">Area of a triangle</h3> <br>
+            <label for="">Side1:</label><input class = "side1" type="text" placeholder="5"><br>
+            <label for="">Side2:</label><input class = "side2"  type="text" placeholder="6"><br>
+            <label for="">Side3:</label><input class = "side3" type="text" placeholder="7"><br>
+            <button class="triangle" onclick="calculate(Areatriangle)">Click</button>
+            <h4 id = "Resultbox2">Result will appear here.</h4><br>
+    </div>
+    <div class="child">
+       
+            <h3 class="clicked">circumference and surface area of triangle</h3>
+            <label for="">The Radius:</label><br>
+            <input type="text" placeholder="4"><br>
+            <button id ="circumference" onclick="calculate(circumcircle)">Circumference</button>
+            <h4 id="circumh4">Circumference will appear here.</h4><br>
+            <button id="SurfaceArea" onclick="calculate(surfacecircle)">SurfaceArea</button>
+            <h4 id="surfaceh4">Surface area will appear here.</h4>
+    
+    </div>
+</div>
+
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
