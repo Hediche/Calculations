@@ -6,7 +6,7 @@ body{
 
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
 }
 .child{
     padding: 30px 0;
