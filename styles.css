@@ -10,6 +10,7 @@ body{
 }
 .child{
     padding: 30px 0;
+    width : 100%;
 }
 input{
     margin: 5px 0; 
